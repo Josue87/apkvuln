@@ -23,6 +23,14 @@
 
 Install [Python 3.6+](https://www.python.org/) and [apkx](https://github.com/b-mueller/apkx).
 
+# PoC
+
+Below, you can see a picture of the tool running:
+
+![Apkvuln poc](https://1.bp.blogspot.com/-egYweDB8LnE/XodCH9yKwqI/AAAAAAAABFw/6tAdC2yJcQ4Y8bjuwkzuSsy10Jq-KVKBACNcBGAsYHQ/s1600/apk_analyzer.png)
+
+Spanish post: https://www.boomernix.com/2020/04/apkvuln-analizador-estatico-de-apks.html
+
  # Author 
  
  * Josue Encinar (@josueencinar)
