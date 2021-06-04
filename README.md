@@ -43,7 +43,7 @@ class Regex(Template):
 
 Below, you can see a picture of the tool running:
 
-![Apkvuln poc](https://1.bp.blogspot.com/-egYweDB8LnE/XodCH9yKwqI/AAAAAAAABFw/6tAdC2yJcQ4Y8bjuwkzuSsy10Jq-KVKBACNcBGAsYHQ/s1600/apk_analyzer.png)
+![image](https://user-images.githubusercontent.com/16885065/120806707-7b7be880-c547-11eb-8ff7-4716665b3338.png)
 
 Spanish post: https://www.boomernix.com/2020/04/apkvuln-analizador-estatico-de-apks.html
 
