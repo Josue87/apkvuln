@@ -12,6 +12,5 @@ def write_results(code_file, vulnerabilities, results_folder_name):
                 for k,v in vuln.items():
                     dump_result.write(f"{k}: {v}\n")
                 dump_result.write("\n")
-            except Exception as e:
-                print(e)
+            except:
                 pass
