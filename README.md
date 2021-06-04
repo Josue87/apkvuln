@@ -1,5 +1,6 @@
 ![Supported Python versions](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/license-GNU-green.svg?style=flat-square&logo=gnu)
+![](https://img.shields.io/badge/Works%20in%20Linux-purple.svg?style=flat-square&logo=debian)
 
 # ApkVuln
 

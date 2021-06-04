@@ -11,6 +11,6 @@ banner = """
                                           
                                           
 """
-author = "Author: Josue Encinar (@josueencinar)"
+author = "By @JosueEncinar"
 banner += author + "\n"
 banner += len(author)*"-"
