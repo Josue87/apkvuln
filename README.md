@@ -45,12 +45,14 @@ class Regex(Template):
 
 # PoC
 
-Below, you can see a picture of the tool running:
+Here is an example of the tool analyzing the vulnerable Diva apk
 
-![image](https://user-images.githubusercontent.com/16885065/120806707-7b7be880-c547-11eb-8ff7-4716665b3338.png)
-
-Spanish post: https://www.boomernix.com/2020/04/apkvuln-analizador-estatico-de-apks.html
+![image](https://user-images.githubusercontent.com/16885065/121223998-66c18c80-c888-11eb-90fb-e65ba5280913.png)
 
  # Author 
  
- * Josue Encinar ([@josueencinar](https://twitter.com/josueencinar))
+ * Josue Encinar ([@JosueEncinar](https://twitter.com/josueencinar))
+
+# Disclaimer!
+
+The software is designed to leave no trace in the documents we upload to a domain. The author is not responsible for any illegitimate use.
