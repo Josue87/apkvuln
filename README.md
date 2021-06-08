@@ -55,4 +55,4 @@ Here is an example of the tool analyzing the vulnerable Diva apk
 
 # Disclaimer!
 
-The software is designed to leave no trace in the documents we upload to a domain. The author is not responsible for any illegitimate use.
+The software has been developed to check an apk in order to improve its security. The author is not responsible for any illegitimate use.
