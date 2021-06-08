@@ -18,11 +18,13 @@
 
 With ApkVuln you will obtain the .java files of an APK and they will be analyzed in search of possible vulnerabilities in the code, for it will make use of regular expressions.
 
- **Note**: The existing regular expressions are only an **example** to see the use of the tool, I focused on the script >> you can add your regular expressions. It's very easy, just look in the regex folder. Depending on the regular expressions you will find more or less false positives.
+ **Note**: The accuracy of the results will depend on the regular expressions. They are customizable.
 
 # Dependencies
 
-Install [Python 3.6+](https://www.python.org/) and [apkx](https://github.com/b-mueller/apkx).
+To run this app you need to install [Python 3.6+](https://www.python.org/) and [apkx](https://github.com/b-mueller/apkx).
+
+For full operation, check signature version and AndroidManifest you need to install: [apksigner](https://developer.android.com/studio/command-line/apksigner) and [aapt](https://androidaapt.com/)
 
 # How to extend
 
@@ -35,7 +37,9 @@ class Regex(Template):
 
     def __init__(self):
         pattern_list = [r"exprexion1", r"expresion1000"]
-        super(Regex, self).__init__(pattern_list, "Vulnerability Test")
+        file_type = ["xml", "html", "js", "java", "json"] # specifies the type of files to be applied
+        desc = "This is the vulnerability description"
+        super(Regex, self).__init__(pattern_list, "Vulnerability Test", file_type, desc)
 
 ```
 

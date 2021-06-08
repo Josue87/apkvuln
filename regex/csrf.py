@@ -4,4 +4,5 @@ class Regex(Template):
 
     def __init__(self):
         pattern_list = [r"(@RequestMapping)(?!.*method.*).*"]
-        super(Regex, self).__init__(pattern_list, "csrf")
+        file_type = ["java"]
+        super(Regex, self).__init__(pattern_list, "csrf", file_type)
